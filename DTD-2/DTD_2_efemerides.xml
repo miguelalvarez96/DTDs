@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE efemerides [
-  <!ELEMENT efemerides (efemeride)>
-  <!ELEMENT efemeride (fecha, hecho)>
+<!ELEMENT efemerides (efemeride*)>
+<!ELEMENT efemeride (fecha , hecho)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT hecho (#PCDATA)>
 ]>
-
 <efemerides>
   <efemeride>
     <fecha>20 de julio de 1969</fecha>
@@ -18,4 +19,3 @@
     <hecho>llegada de Robert Peary al Polo Norte</hecho>
   </efemeride>
 </efemerides>
-
