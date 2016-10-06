@@ -6,6 +6,6 @@
 <!ATTLIST item cantidad CDATA #REQUIRED>
 ]>
 <listaCompra>
-  <leche cantidad="12 litros"/>
-  <pan cantidad="3 barras de cuarto"/>
+  <item nombre="Leche" cantidad="12 litros"/>
+  <item nombre="Pan" cantidad="3 barras de cuarto"/>
 </listaCompra>
